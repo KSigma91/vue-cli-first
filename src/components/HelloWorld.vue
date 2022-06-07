@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h2>La mia prima app con Vue CLI!</h2>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -54,5 +55,9 @@ li {
 }
 a {
   color: #42b983;
+}
+h2 {
+  margin: 40px 0 0;
+  color: deepskyblue;
 }
 </style>
